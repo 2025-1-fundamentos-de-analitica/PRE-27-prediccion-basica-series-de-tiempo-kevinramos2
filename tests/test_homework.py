@@ -8,3 +8,5 @@ def test_homework():
 
     assert os.path.exists("files/output/metrics.csv")
     assert os.path.exists("files/output/forecasts.csv")
+
+test_homework()
